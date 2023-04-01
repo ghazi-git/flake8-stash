@@ -32,10 +32,10 @@ def test_model_serializers():
 def test_filtersets():
     errors = get_results("sample_filtersets.py")
     expected = [
-        (17, 8, "STA031"),
-        (27, 8, "STA031"),
-        (35, 8, "STA032"),
-        (41, 8, "STA031"),
+        (16, 8, "STA031"),
+        (26, 8, "STA031"),
+        (34, 8, "STA032"),
+        (40, 8, "STA031"),
     ]
     assert errors == expected
 
