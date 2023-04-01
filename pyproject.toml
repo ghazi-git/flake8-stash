@@ -45,7 +45,7 @@ name = "flake8_stash"
 [tool.tbump]
 
 [tool.tbump.version]
-current = "0.7.0"
+current = "0.8.0"
 regex = '''
   (?P<major>\d+)
   \.

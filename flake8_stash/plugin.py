@@ -5,7 +5,7 @@ from .dunder_all import get_meta_class, inspect_class
 
 class Plugin:
     name = "flake8-stash"
-    version = "0.7.0"
+    version = "0.8.0"
 
     def __init__(self, tree):
         self.tree = tree
