@@ -35,7 +35,7 @@ repos:
     rev: '6.0.0'
     hooks:
       - id: flake8
-        additional_dependencies: [ "flake8-stash==0.8.0" ]
+        additional_dependencies: [ "flake8-stash==0.9.0" ]
 ```
 
 ## License
